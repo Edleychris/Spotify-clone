@@ -1,0 +1,162 @@
+.fire {
+    color: gold;
+}
+
+.mainContainer{
+    padding: 11px 30px;
+    margin-left: 20px;
+}
+
+.mainTitleContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trendyImageContainer{
+    background-image: url('./mainAssets/Ontop.jpg');
+    background-size: center;
+    padding: 15px 15px ;
+    border-radius: 10px;
+    width: 48vw;
+    height: 154x;
+}
+
+.playBTN{
+    border-radius: 15px;
+    padding: 6px 20px;
+    background: rgb(23, 23, 23);
+    border: 2px solid rgb(23, 23, 23);
+    color:white;
+    cursor: pointer;
+}
+
+.playBTN:hover{
+    color: rgb(23, 23, 23);
+    background-color: rgba(255, 255, 255, 0.751);
+}
+
+.followBTN {
+    border-radius: 15px;
+    padding: 6px 20px;
+    background-color: rgba(255, 255, 255, 0.751);
+    border: 2px solid rgb(23, 23, 23);
+    color: rgb(23, 23, 23);
+    cursor: pointer;
+}
+
+.followBTN:hover {
+    background-color: rgb(23, 23, 23);
+    color: white;
+}
+
+.mainBTNContainer, 
+.playlistHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mainBTNContainer{
+    margin-top: 34px;
+}
+
+.mainBTNContainer .playBTN{
+    margin-right: 10px;
+}
+
+.musicListener{
+    color: white;
+}
+
+
+/*Playlist Card*/
+
+.playlistContainer{
+    padding: 10px 0px;
+}
+.playlistPill,
+.playlistHeader{
+    border-radius: 8px;
+    padding: 8px 6px;
+    background: #ddeded;
+    border: 2px solid #ddeded;
+    color: rgb(23, 23, 23);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width : 100%;
+    font-size: 10.5px;
+}
+.playlistPill{
+    cursor: pointer;
+
+}
+.playlistHeader{
+    font-weight: 400;
+}
+
+.playlistPill:hover{
+    background-color: white
+}
+
+
+.musicplayerContainer{
+    background: white;
+    padding: 18px 13px;
+    border-radius: 7px;
+}
+.musicplayerFirst,
+.musicplayerSecond{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.musicplayerFirst{
+    margin-bottom: 25px;
+}
+.musicplayerMiddle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.playIcon{
+    margin-right: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+/*search*/
+.searchContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+.arrow{
+    font-size: 25px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 70%;
+    margin-left: 18px;
+}
+
+.search input {
+    border: none;
+    background-color: rgb(254, 251, 251);
+    margin-left: 18px;
+}
+
+.search input:focus {
+    outline: none;
+}

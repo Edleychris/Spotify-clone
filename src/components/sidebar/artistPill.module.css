@@ -1,0 +1,44 @@
+.artistContainer{
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 3px 0px;    
+}
+
+.imgContainer{
+    height: 30px;
+}
+
+.artistImg{
+    height: 100%;
+    border-radius: 25px;
+}
+
+.artistArticle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.artistName{
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+.aSongName{
+    color: #7d7b7a;
+    font-size: 9px;
+    font-weight: 700;
+}
+.ShortcutCard h1{
+    margin-bottom: 15px;
+}
+.ShortcutCard{
+    margin-bottom: 15px;
+}

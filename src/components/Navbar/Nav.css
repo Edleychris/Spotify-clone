@@ -1,0 +1,140 @@
+.Navbar{
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 1rem;
+}
+.NavSection1{
+    display: flex;
+    justify-content: space-around;
+    gap:2rem;
+}
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    gap: .4rem;
+    text-align: left;
+    margin: 15px;
+}
+.arrows i{
+    font-size: 1.5rem;
+    
+}
+.searchbox{
+    width:60%;
+    height:40px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+
+}
+.searchbox input{
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding-left: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 45px;
+    margin-top: 4px;
+}
+.searchbox .searchicon{
+    position: absolute;
+    width: 45px;
+    line-height: 45px;
+    top:0;
+    left: 0;
+    text-align:center;
+}
+.NavSection2{
+    margin-top:-1rem;
+    width:95%;
+    margin: 0rem 1rem;
+    padding: 0 1rem;
+    margin-bottom: -1rem;
+}
+.NavSection2 .sub1{
+    display: flex;
+}
+.NavSection2 .sub1 h5{
+    opacity: .4;
+}
+.NavSection2 .sub1 span{
+    line-height: 58px;
+}
+.NavSection2 .sub2{
+    margin-top: -2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+.NavSection2 .sub2 i{
+    gap: 5px;
+}
+.NavSection2 .sub2 .sub2Section{
+    gap: 3px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    margin-left: 2rem;
+    height: 13rem;
+    top: 6rem;
+    min-height: 10vh;
+}
+.banner img{
+    width: 100vw;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    border-radius: 10px;
+    min-height: 10vh;
+}
+.bannerContent{
+    position: absolute ;
+    top: 14rem;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    /* opacity: .8; */
+    /* background: rgba(235, 233, 233, 0.5); */
+    /* background: transparent; */
+}
+.bannerText{
+    width: 50%;
+    font-size: 1.5rem;
+    /* background-color: red; */
+
+}
+.bannerText h5{
+    opacity: .5;
+}
+.bannerButton{
+    display: flex;
+    /* background-color: red; */
+    margin-top: -1rem;
+    /* flex-direction: row; */
+    gap: 1rem;
+    /* justify-content: center; */
+
+}
+.bannerButton .first{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 25px;
+}
+.bannerButton .second{
+    color: black;
+    border: 1.5px solid black;
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-weight: 2rem;
+
+}

@@ -1,0 +1,32 @@
+.spotify{
+    margin-bottom: 40px ;
+    
+}
+.spotifyE{
+    background-color: #ddeded;
+    font-size: 30px;
+    margin-right: 3px;
+}
+.navbarStyles h1{
+    align-items: center;
+    display: flex;
+
+}
+
+.navbarStyles{
+    width: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: rgb(40, 39, 39);
+    height: 100%;
+    background: white;
+    font-weight: 410;
+    padding: 10px 8px;
+    font-size: 9px;
+}
+
+.sectionStyles {
+    margin-top: 10px;
+    margin-bottom: 22px
+}
