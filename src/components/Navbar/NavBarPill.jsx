@@ -9,9 +9,9 @@ const styles = {
     alignItems: 'center'
 }
 
-function NavbarPill({Img, text, addStyle}) {
+function NavBarPill({Img, text, addStyle}) {
   return <p className='nav-item' style={styles}><Img style={addStyle} className="navImg"/>{text}</p>     
   
 }
 
-export default NavbarPill
+export default NavBarPill

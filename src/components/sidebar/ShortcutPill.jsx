@@ -14,8 +14,8 @@ import React from 'react'
 }
 
 
-function Pill({Img, text, styled}) {
+function ShortcutPill({Img, text, styled}) {
   return <button style={styles}><Img style={styled}/>{text}</button>
 }
 
-export default Pill
+export default ShortcutPill

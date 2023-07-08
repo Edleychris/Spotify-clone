@@ -6,16 +6,8 @@ import styles from './mainPage.module.css'
 import SearchComponent from './SearchComponent'
 
 
-
-
-
-
-
 function MainPage() {
   const [searchItem, setSearchItem] = useState('')
-
-  
-
 
       return (
     <div className={styles.mainContainer}>

@@ -3,10 +3,10 @@ import React from 'react'
 import styles from './artistPill.module.css'
 
 import ArtistPill from './ArtistPill';
-import kanye from './sidebarAssets/kanye.jpg';
-import drake  from './sidebarAssets/drake.jpg';
-import billie from './sidebarAssets/billie.jpg';
-import taylor from './sidebarAssets/taylor.jpg'
+import kanye from './sidebarAssets/kanye.jpeg';
+import drake  from './sidebarAssets/drake.jpeg';
+import billie from './sidebarAssets/Billie.jpg';
+import taylor from './sidebarAssets/taylor.jpeg'
 
 
 const artists = [

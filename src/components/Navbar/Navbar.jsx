@@ -1,6 +1,6 @@
 import React from 'react'
 
-import NavbarPill from './NavbarPill'
+import NavBarPill from './NavBarPill'
 import UserPill from './UserPill'
 import styles from './navbar.module.css'
 
@@ -73,15 +73,15 @@ function Navbar({signout}) {
     <div className={styles.navbarStyles}>
       <h1 className={styles.spotify}><RiSpotifyLine className={styles.spotifyE}/> Spotify Music</h1>
       <section className={styles.sectionStyles}>
-        {section1.map((item, index) => (<NavbarPill key={index}  Img={item.icon} text={item.name}/>))}
+        {section1.map((item, index) => (<NavBarPill key={index}  Img={item.icon} text={item.name}/>))}
       </section>
       <section className={styles.sectionStyles}>
         <p style={sectionHeadStyles}>Discover</p>
-        {section2.map((item, index) => (<NavbarPill key={index}  Img={item.icon} text={item.name}/>))}
+        {section2.map((item, index) => (<NavBarPill key={index}  Img={item.icon} text={item.name}/>))}
       </section>
       <section className={styles.sectionStyles}>
         <p style={sectionHeadStyles}>Your Collection</p>
-        {section3.map((item, index) => (<NavbarPill key={index}  Img={item.icon} text={item.name}/>))}
+        {section3.map((item, index) => (<NavBarPill key={index}  Img={item.icon} text={item.name}/>))}
       </section>
       <UserPill signOut={signout}/>
     </div>

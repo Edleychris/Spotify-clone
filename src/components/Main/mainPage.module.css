@@ -15,7 +15,7 @@
 }
 
 .trendyImageContainer{
-    background-image: url('./mainAssets/Ontop.jpg');
+    background-image: url('https://media.istockphoto.com/id/1221837116/photo/positive-man-celebrating-success.jpg?s=612x612&w=0&k=20&c=UAazDrWbUjSHAYNlthq_kf1IdzsxZo9CCtEYc7zJTAw=');
     background-size: center;
     padding: 15px 15px ;
     border-radius: 10px;
@@ -74,13 +74,15 @@
 
 .playlistContainer{
     padding: 10px 0px;
+    max-width: 97%;
 }
-.playlistPill,
+
 .playlistHeader{
     border-radius: 8px;
     padding: 8px 6px;
     background: #ddeded;
     border: 2px solid #ddeded;
+    /* background-color: red; */
     color: rgb(23, 23, 23);
     display: flex;
     flex-direction: row;
@@ -90,8 +92,44 @@
     font-size: 10.5px;
 }
 .playlistPill{
+    padding: 5px;
+    border: 2px solid #ddeded;
+    /* background-color: red; */
+    background-color: aliceblue;
+    color: rgb(23, 23, 23);
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ;
+    align-items: center;
+    text-align: left;
+    width : 49rem;
+    gap: 8rem;
+    height: 2rem;
+    font-size: 8px;
+    
+}
+.playlistPill span{
     cursor: pointer;
+    width: 10rem;
+    font-size: 11.5px;
 
+
+}
+.playlistPill span:nth-child(1){
+    width: 1rem;
+}
+.playlistPill span:nth-child(2){
+margin-left: -5rem;
+width: 45rem;
+
+}
+.playlistPill span:nth-child(3){
+    margin-left: -4rem;
+    width: 17rem;
+}
+.playlistPill span:nth-child(4){
+    margin-left: -1rem;
+    width: 14rem;
 }
 .playlistHeader{
     font-weight: 400;
@@ -102,6 +140,7 @@
 }
 
 
+/* Musicplayer */
 .musicplayerContainer{
     background: white;
     padding: 18px 13px;

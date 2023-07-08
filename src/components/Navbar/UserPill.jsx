@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../sidebar/artistPill.module.css'
-import style from '../main/mainPage.module.css'
-import userImg from './navbarAssets/taylor.jpg'
+import style from '../Main/mainPage.module.css'
+import userImg from '../sidebar/sidebarAssets/taylor.jpeg'
 
 
 const btnStyles = {

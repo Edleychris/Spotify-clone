@@ -1,5 +1,5 @@
 import React from 'react'
-import tori from './sidebarAssets/torisestu.jpg'
+import tori from './sidebarAssets/Billie.jpg'
 import {MdAdd} from 'react-icons/md'
 
 
